@@ -1,0 +1,26 @@
+Data set:
+73036 total
+24691 ham
+48345 spam
+
+Training set:
+58428 total
+19788 ham
+38640 spam
+
+Test set:
+14608 total
+4903 ham
+9705 spam
+
+C:\Programming\Workspace\cs-191-ml-svm-ham-or-spam\env\lib\site-packages\sklearn\svm\base.py:931: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+Accuracy: 99.45920%
+              precision    recall  f1-score   support
+
+         ham       0.99      0.99      0.99      4903
+        spam       0.99      1.00      1.00      9705
+
+   micro avg       0.99      0.99      0.99     14608
+   macro avg       0.99      0.99      0.99     14608
+weighted avg       0.99      0.99      0.99     14608

@@ -1,0 +1,25 @@
+SVC(kernel='linear', C=10, gamma=10)
+Data set:
+73036 total
+24691 ham
+48345 spam
+
+Training set:
+58428 total
+19788 ham
+38640 spam
+
+Test set:
+14608 total
+4903 ham
+9705 spam
+
+Accuracy: 99.52081%
+              precision    recall  f1-score   support
+
+         ham       0.99      0.99      0.99      4903
+        spam       1.00      1.00      1.00      9705
+
+   micro avg       1.00      1.00      1.00     14608
+   macro avg       1.00      0.99      0.99     14608
+weighted avg       1.00      1.00      1.00     14608

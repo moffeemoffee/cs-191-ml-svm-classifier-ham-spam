@@ -1,3 +1,4 @@
+LinearSVC(C=100)
 Data set:
 73036 total
 24691 ham

@@ -1,721 +1,821 @@
 ,min_score,mean_score,max_score,std_score,clf__estimator,clf__estimator__C,clf__estimator__degree,clf__estimator__gamma,clf__estimator__kernel
-53,0.972972972972973,0.9799919680159203,0.9880239520958084,0.0061861459854920305,"LinearSVC(C=1.0, class_weight=None, dual=True, fit_intercept=True,
+38,0.975975975975976,0.9799949650249052,0.9850299401197605,0.0037654337876152372,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",10,,1,sigmoid
+78,0.972972972972973,0.9799919680159203,0.9880239520958084,0.0061861459854920305,"LinearSVC(C=1.0, class_weight=None, dual=True, fit_intercept=True,
      intercept_scaling=1, loss='squared_hinge', max_iter=1000,
      multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
      verbose=0)",100,,,
-52,0.972972972972973,0.9799919680159203,0.9880239520958084,0.0061861459854920305,"LinearSVC(C=1.0, class_weight=None, dual=True, fit_intercept=True,
+77,0.972972972972973,0.9799919680159203,0.9880239520958084,0.0061861459854920305,"LinearSVC(C=1.0, class_weight=None, dual=True, fit_intercept=True,
      intercept_scaling=1, loss='squared_hinge', max_iter=1000,
      multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
      verbose=0)",10,,,
-30,0.972972972972973,0.9799919680159203,0.9880239520958084,0.0061861459854920305,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+45,0.972972972972973,0.9799919680159203,0.9880239520958084,0.0061861459854920305,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
   tol=0.001, verbose=False)",100,,scale,rbf
-42,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
-  max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",1000,,0.1,rbf
-33,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
-  max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",100,,0.1,linear
-31,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
-  max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",100,,scale,linear
-29,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
-  max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",10,,100,linear
-39,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
-  max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",100,,100,linear
-27,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+40,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
   tol=0.001, verbose=False)",10,,10,linear
-40,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+65,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",1000,,scale,rbf
-25,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
-  max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",10,,1,linear
-23,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
-  max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",10,,0.1,linear
-22,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
-  max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",10,,0.1,rbf
-21,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+  tol=0.001, verbose=False)",1000,,0.1,sigmoid
+31,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
   tol=0.001, verbose=False)",10,,scale,linear
-41,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
-  max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",1000,,scale,linear
-37,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
-  max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",100,,10,linear
-43,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+64,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
   tol=0.001, verbose=False)",1000,,0.1,linear
-45,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+33,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",1000,,1,linear
-47,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+  tol=0.001, verbose=False)",10,,0.1,rbf
+34,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",10,,0.1,linear
+37,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",10,,1,linear
+63,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",1000,,0.1,rbf
+62,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",1000,,scale,sigmoid
+70,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
   tol=0.001, verbose=False)",1000,,10,linear
-35,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+61,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",1000,,scale,linear
+43,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",10,,100,linear
+60,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",1000,,scale,rbf
+46,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",100,,scale,linear
+48,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",100,,0.1,rbf
+49,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",100,,0.1,linear
+50,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",100,,0.1,sigmoid
+52,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
   tol=0.001, verbose=False)",100,,1,linear
-49,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+55,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",1000,,100,linear
-54,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"LinearSVC(C=1.0, class_weight=None, dual=True, fit_intercept=True,
+  tol=0.001, verbose=False)",100,,10,linear
+67,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",1000,,1,linear
+58,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",100,,100,linear
+79,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"LinearSVC(C=1.0, class_weight=None, dual=True, fit_intercept=True,
      intercept_scaling=1, loss='squared_hinge', max_iter=1000,
      multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
      verbose=0)",1000,,,
-32,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+73,0.96996996996997,0.9789909670149192,0.9880239520958084,0.007370512213533853,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",100,,0.1,rbf
-51,0.9669669669669669,0.9759939580298861,0.9820359281437125,0.006503904483024485,"LinearSVC(C=1.0, class_weight=None, dual=True, fit_intercept=True,
+  tol=0.001, verbose=False)",1000,,100,linear
+68,0.972972972972973,0.9779929630229032,0.9850299401197605,0.0051246978288339035,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",1000,,1,sigmoid
+53,0.972972972972973,0.9779929630229032,0.9850299401197605,0.0051246978288339035,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",100,,1,sigmoid
+76,0.9669669669669669,0.9759939580298861,0.9820359281437125,0.006503904483024485,"LinearSVC(C=1.0, class_weight=None, dual=True, fit_intercept=True,
      intercept_scaling=1, loss='squared_hinge', max_iter=1000,
      multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
      verbose=0)",1,,,
-17,0.963963963963964,0.9759879640119161,0.9880239520958084,0.00982245268117482,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
-  max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",1,,10,linear
-15,0.963963963963964,0.9759879640119161,0.9880239520958084,0.00982245268117482,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+22,0.963963963963964,0.9759879640119161,0.9880239520958084,0.00982245268117482,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
   tol=0.001, verbose=False)",1,,1,linear
-19,0.963963963963964,0.9759879640119161,0.9880239520958084,0.00982245268117482,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+28,0.963963963963964,0.9759879640119161,0.9880239520958084,0.00982245268117482,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
   tol=0.001, verbose=False)",1,,100,linear
-13,0.963963963963964,0.9759879640119161,0.9880239520958084,0.00982245268117482,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+25,0.963963963963964,0.9759879640119161,0.9880239520958084,0.00982245268117482,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",1,,10,linear
+19,0.963963963963964,0.9759879640119161,0.9880239520958084,0.00982245268117482,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
   tol=0.001, verbose=False)",1,,0.1,linear
-11,0.963963963963964,0.9759879640119161,0.9880239520958084,0.00982245268117482,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+16,0.963963963963964,0.9759879640119161,0.9880239520958084,0.00982245268117482,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
   tol=0.001, verbose=False)",1,,scale,linear
-44,0.948948948948949,0.9639999280717845,0.978978978978979,0.012259813923337231,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+35,0.960960960960961,0.974986963010915,0.9880239520958084,0.011070530919969518,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",1000,,1,rbf
-24,0.948948948948949,0.9639999280717845,0.978978978978979,0.012259813923337231,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+  tol=0.001, verbose=False)",10,,0.1,sigmoid
+23,0.960960960960961,0.9739889590188991,0.9850299401197605,0.009926063896881623,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",1,,1,sigmoid
+47,0.960960960960961,0.9709889530248811,0.9820359281437125,0.008633937119999628,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",100,,scale,sigmoid
+36,0.948948948948949,0.9639999280717845,0.978978978978979,0.012259813923337231,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
   tol=0.001, verbose=False)",10,,1,rbf
-34,0.948948948948949,0.9639999280717845,0.978978978978979,0.012259813923337231,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+66,0.948948948948949,0.9639999280717845,0.978978978978979,0.012259813923337231,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",1000,,1,rbf
+51,0.948948948948949,0.9639999280717845,0.978978978978979,0.012259813923337231,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
   tol=0.001, verbose=False)",100,,1,rbf
-14,0.9429429429429429,0.9490058921196646,0.960960960960961,0.008453797920881745,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+21,0.9429429429429429,0.9490058921196646,0.960960960960961,0.008453797920881745,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
   tol=0.001, verbose=False)",1,,1,rbf
-108,0.907185628742515,0.923015830201459,0.93993993993994,0.013394245082558652,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",10,2,10,poly
-156,0.907185628742515,0.923015830201459,0.93993993993994,0.013394245082558652,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1000,2,0.1,poly
-59,0.907185628742515,0.923015830201459,0.93993993993994,0.013394245082558652,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",0.1,2,100,poly
-107,0.907185628742515,0.923015830201459,0.93993993993994,0.013394245082558652,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",10,2,1,poly
-109,0.907185628742515,0.923015830201459,0.93993993993994,0.013394245082558652,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",10,2,100,poly
-84,0.907185628742515,0.923015830201459,0.93993993993994,0.013394245082558652,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1,2,100,poly
-157,0.907185628742515,0.923015830201459,0.93993993993994,0.013394245082558652,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1000,2,1,poly
-134,0.907185628742515,0.923015830201459,0.93993993993994,0.013394245082558652,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",100,2,100,poly
-133,0.907185628742515,0.923015830201459,0.93993993993994,0.013394245082558652,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",100,2,10,poly
-132,0.907185628742515,0.923015830201459,0.93993993993994,0.013394245082558652,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",100,2,1,poly
 158,0.907185628742515,0.923015830201459,0.93993993993994,0.013394245082558652,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1000,2,10,poly
+  shrinking=True, tol=0.001, verbose=False)",100,2,10,poly
 159,0.907185628742515,0.923015830201459,0.93993993993994,0.013394245082558652,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1000,2,100,poly
+  shrinking=True, tol=0.001, verbose=False)",100,2,100,poly
+134,0.907185628742515,0.923015830201459,0.93993993993994,0.013394245082558652,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",10,2,100,poly
+133,0.907185628742515,0.923015830201459,0.93993993993994,0.013394245082558652,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",10,2,10,poly
+132,0.907185628742515,0.923015830201459,0.93993993993994,0.013394245082558652,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",10,2,1,poly
 83,0.907185628742515,0.923015830201459,0.93993993993994,0.013394245082558652,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1,2,10,poly
-58,0.907185628742515,0.923015830201459,0.93993993993994,0.013394245082558652,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  shrinking=True, tol=0.001, verbose=False)",0.1,2,10,poly
+109,0.907185628742515,0.923015830201459,0.93993993993994,0.013394245082558652,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",0.1,2,10,poly
-82,0.9011976047904192,0.9100088112064161,0.924924924924925,0.010604994108768756,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  shrinking=True, tol=0.001, verbose=False)",1,2,100,poly
+108,0.907185628742515,0.923015830201459,0.93993993993994,0.013394245082558652,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1,2,10,poly
+181,0.907185628742515,0.923015830201459,0.93993993993994,0.013394245082558652,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1000,2,0.1,poly
+182,0.907185628742515,0.923015830201459,0.93993993993994,0.013394245082558652,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1000,2,1,poly
+183,0.907185628742515,0.923015830201459,0.93993993993994,0.013394245082558652,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1000,2,10,poly
+184,0.907185628742515,0.923015830201459,0.93993993993994,0.013394245082558652,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1000,2,100,poly
+84,0.907185628742515,0.923015830201459,0.93993993993994,0.013394245082558652,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",0.1,2,100,poly
+157,0.907185628742515,0.923015830201459,0.93993993993994,0.013394245082558652,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",100,2,1,poly
+107,0.9011976047904192,0.9100088112064161,0.924924924924925,0.010604994108768756,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
   shrinking=True, tol=0.001, verbose=False)",1,2,1,poly
-131,0.9011976047904192,0.9100088112064161,0.924924924924925,0.010604994108768756,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+156,0.9011976047904192,0.9100088112064161,0.924924924924925,0.010604994108768756,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
   shrinking=True, tol=0.001, verbose=False)",100,2,0.1,poly
-50,0.8922155688622755,0.9040117962273652,0.924924924924925,0.0148282143437838,"LinearSVC(C=1.0, class_weight=None, dual=True, fit_intercept=True,
+26,0.8952095808383234,0.9090138042233851,0.9219219219219219,0.010923660729282204,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",1,,10,sigmoid
+11,0.9039039039039038,0.906001810193427,0.9099099099099099,0.002765938926573501,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",0.1,,10,sigmoid
+75,0.8922155688622755,0.9040117962273652,0.924924924924925,0.0148282143437838,"LinearSVC(C=1.0, class_weight=None, dual=True, fit_intercept=True,
      intercept_scaling=1, loss='squared_hinge', max_iter=1000,
      multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
      verbose=0)",0.1,,,
-137,0.8558558558558559,0.8580017142891395,0.8618618618618619,0.0027352169293913438,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",100,3,1,poly
-88,0.8558558558558559,0.8580017142891395,0.8618618618618619,0.0027352169293913438,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1,3,10,poly
-164,0.8558558558558559,0.8580017142891395,0.8618618618618619,0.0027352169293913438,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1000,3,100,poly
+41,0.8618618618618619,0.8829967692243142,0.9009009009009009,0.016100519161861178,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",10,,10,sigmoid
+56,0.8712574850299402,0.8820107532682382,0.8978978978978979,0.011465758138769697,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",100,,10,sigmoid
+71,0.8708708708708709,0.8770057482632333,0.8888888888888888,0.008404131562266545,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",1000,,10,sigmoid
 163,0.8558558558558559,0.8580017142891395,0.8618618618618619,0.0027352169293913438,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1000,3,10,poly
-64,0.8558558558558559,0.8580017142891395,0.8618618618618619,0.0027352169293913438,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",0.1,3,100,poly
-63,0.8558558558558559,0.8580017142891395,0.8618618618618619,0.0027352169293913438,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",0.1,3,10,poly
-138,0.8558558558558559,0.8580017142891395,0.8618618618618619,0.0027352169293913438,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
   shrinking=True, tol=0.001, verbose=False)",100,3,10,poly
-89,0.8558558558558559,0.8580017142891395,0.8618618618618619,0.0027352169293913438,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1,3,100,poly
-112,0.8558558558558559,0.8580017142891395,0.8618618618618619,0.0027352169293913438,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",10,3,1,poly
-113,0.8558558558558559,0.8580017142891395,0.8618618618618619,0.0027352169293913438,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",10,3,10,poly
-114,0.8558558558558559,0.8580017142891395,0.8618618618618619,0.0027352169293913438,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+139,0.8558558558558559,0.8580017142891395,0.8618618618618619,0.0027352169293913438,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
   shrinking=True, tol=0.001, verbose=False)",10,3,100,poly
-139,0.8558558558558559,0.8580017142891395,0.8618618618618619,0.0027352169293913438,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+189,0.8558558558558559,0.8580017142891395,0.8618618618618619,0.0027352169293913438,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1000,3,100,poly
+114,0.8558558558558559,0.8580017142891395,0.8618618618618619,0.0027352169293913438,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1,3,100,poly
+138,0.8558558558558559,0.8580017142891395,0.8618618618618619,0.0027352169293913438,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",10,3,10,poly
+137,0.8558558558558559,0.8580017142891395,0.8618618618618619,0.0027352169293913438,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",10,3,1,poly
+187,0.8558558558558559,0.8580017142891395,0.8618618618618619,0.0027352169293913438,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1000,3,1,poly
+88,0.8558558558558559,0.8580017142891395,0.8618618618618619,0.0027352169293913438,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",0.1,3,10,poly
+89,0.8558558558558559,0.8580017142891395,0.8618618618618619,0.0027352169293913438,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",0.1,3,100,poly
+164,0.8558558558558559,0.8580017142891395,0.8618618618618619,0.0027352169293913438,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
   shrinking=True, tol=0.001, verbose=False)",100,3,100,poly
 162,0.8558558558558559,0.8580017142891395,0.8618618618618619,0.0027352169293913438,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1000,3,1,poly
-87,0.8323353293413174,0.8420096743450037,0.8588588588588588,0.011957790933515086,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  shrinking=True, tol=0.001, verbose=False)",100,3,1,poly
+188,0.8558558558558559,0.8580017142891395,0.8618618618618619,0.0027352169293913438,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1,3,1,poly
-161,0.8323353293413174,0.8420096743450037,0.8588588588588588,0.011957790933515086,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  shrinking=True, tol=0.001, verbose=False)",1000,3,10,poly
+113,0.8558558558558559,0.8580017142891395,0.8618618618618619,0.0027352169293913438,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1,3,10,poly
+186,0.8323353293413174,0.8420096743450037,0.8588588588588588,0.011957790933515086,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
   shrinking=True, tol=0.001, verbose=False)",1000,3,0.1,poly
-93,0.8228228228228228,0.8350056643469816,0.8528528528528528,0.012897397565608612,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+112,0.8323353293413174,0.8420096743450037,0.8588588588588588,0.011957790933515086,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1,4,10,poly
-94,0.8228228228228228,0.8350056643469816,0.8528528528528528,0.012897397565608612,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1,4,100,poly
-144,0.8228228228228228,0.8350056643469816,0.8528528528528528,0.012897397565608612,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",100,4,100,poly
-117,0.8228228228228228,0.8350056643469816,0.8528528528528528,0.012897397565608612,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",10,4,1,poly
+  shrinking=True, tol=0.001, verbose=False)",1,3,1,poly
 118,0.8228228228228228,0.8350056643469816,0.8528528528528528,0.012897397565608612,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",10,4,10,poly
+  shrinking=True, tol=0.001, verbose=False)",1,4,10,poly
 119,0.8228228228228228,0.8350056643469816,0.8528528528528528,0.012897397565608612,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",10,4,100,poly
-143,0.8228228228228228,0.8350056643469816,0.8528528528528528,0.012897397565608612,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",100,4,10,poly
-142,0.8228228228228228,0.8350056643469816,0.8528528528528528,0.012897397565608612,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",100,4,1,poly
-68,0.8228228228228228,0.8350056643469816,0.8528528528528528,0.012897397565608612,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",0.1,4,10,poly
-69,0.8228228228228228,0.8350056643469816,0.8528528528528528,0.012897397565608612,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",0.1,4,100,poly
-167,0.8228228228228228,0.8350056643469816,0.8528528528528528,0.012897397565608612,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1000,4,1,poly
-168,0.8228228228228228,0.8350056643469816,0.8528528528528528,0.012897397565608612,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1000,4,10,poly
+  shrinking=True, tol=0.001, verbose=False)",1,4,100,poly
 169,0.8228228228228228,0.8350056643469816,0.8528528528528528,0.012897397565608612,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",100,4,100,poly
+168,0.8228228228228228,0.8350056643469816,0.8528528528528528,0.012897397565608612,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",100,4,10,poly
+192,0.8228228228228228,0.8350056643469816,0.8528528528528528,0.012897397565608612,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1000,4,1,poly
+94,0.8228228228228228,0.8350056643469816,0.8528528528528528,0.012897397565608612,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",0.1,4,100,poly
+93,0.8228228228228228,0.8350056643469816,0.8528528528528528,0.012897397565608612,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",0.1,4,10,poly
+193,0.8228228228228228,0.8350056643469816,0.8528528528528528,0.012897397565608612,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1000,4,10,poly
+167,0.8228228228228228,0.8350056643469816,0.8528528528528528,0.012897397565608612,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",100,4,1,poly
+143,0.8228228228228228,0.8350056643469816,0.8528528528528528,0.012897397565608612,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",10,4,10,poly
+142,0.8228228228228228,0.8350056643469816,0.8528528528528528,0.012897397565608612,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",10,4,1,poly
+194,0.8228228228228228,0.8350056643469816,0.8528528528528528,0.012897397565608612,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
   shrinking=True, tol=0.001, verbose=False)",1000,4,100,poly
-74,0.8053892215568862,0.820014625403847,0.8408408408408409,0.015122651349216382,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+144,0.8228228228228228,0.8350056643469816,0.8528528528528528,0.012897397565608612,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",0.1,5,100,poly
-173,0.8053892215568862,0.820014625403847,0.8408408408408409,0.015122651349216382,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1000,5,10,poly
-124,0.8053892215568862,0.820014625403847,0.8408408408408409,0.015122651349216382,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",10,5,100,poly
-123,0.8053892215568862,0.820014625403847,0.8408408408408409,0.015122651349216382,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",10,5,10,poly
-122,0.8053892215568862,0.820014625403847,0.8408408408408409,0.015122651349216382,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",10,5,1,poly
-174,0.8053892215568862,0.820014625403847,0.8408408408408409,0.015122651349216382,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1000,5,100,poly
-147,0.8053892215568862,0.820014625403847,0.8408408408408409,0.015122651349216382,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",100,5,1,poly
-148,0.8053892215568862,0.820014625403847,0.8408408408408409,0.015122651349216382,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",100,5,10,poly
-73,0.8053892215568862,0.820014625403847,0.8408408408408409,0.015122651349216382,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",0.1,5,10,poly
-99,0.8053892215568862,0.820014625403847,0.8408408408408409,0.015122651349216382,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1,5,100,poly
+  shrinking=True, tol=0.001, verbose=False)",10,4,100,poly
 98,0.8053892215568862,0.820014625403847,0.8408408408408409,0.015122651349216382,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1,5,10,poly
-149,0.8053892215568862,0.820014625403847,0.8408408408408409,0.015122651349216382,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  shrinking=True, tol=0.001, verbose=False)",0.1,5,10,poly
+123,0.8053892215568862,0.820014625403847,0.8408408408408409,0.015122651349216382,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",100,5,100,poly
+  shrinking=True, tol=0.001, verbose=False)",1,5,10,poly
+124,0.8053892215568862,0.820014625403847,0.8408408408408409,0.015122651349216382,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1,5,100,poly
 172,0.8053892215568862,0.820014625403847,0.8408408408408409,0.015122651349216382,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",100,5,1,poly
+99,0.8053892215568862,0.820014625403847,0.8408408408408409,0.015122651349216382,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",0.1,5,100,poly
+147,0.8053892215568862,0.820014625403847,0.8408408408408409,0.015122651349216382,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",10,5,1,poly
+197,0.8053892215568862,0.820014625403847,0.8408408408408409,0.015122651349216382,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
   shrinking=True, tol=0.001, verbose=False)",1000,5,1,poly
-92,0.8048048048048048,0.8190106273938609,0.8438438438438438,0.017620400439629653,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+199,0.8053892215568862,0.820014625403847,0.8408408408408409,0.015122651349216382,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1000,5,100,poly
+148,0.8053892215568862,0.820014625403847,0.8408408408408409,0.015122651349216382,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",10,5,10,poly
+149,0.8053892215568862,0.820014625403847,0.8408408408408409,0.015122651349216382,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",10,5,100,poly
+174,0.8053892215568862,0.820014625403847,0.8408408408408409,0.015122651349216382,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",100,5,100,poly
+198,0.8053892215568862,0.820014625403847,0.8408408408408409,0.015122651349216382,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1000,5,10,poly
+173,0.8053892215568862,0.820014625403847,0.8408408408408409,0.015122651349216382,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",100,5,10,poly
+117,0.8048048048048048,0.8190106273938609,0.8438438438438438,0.017620400439629653,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
   shrinking=True, tol=0.001, verbose=False)",1,4,1,poly
-12,0.8053892215568862,0.816010621399843,0.8318318318318318,0.011404134693449952,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+18,0.8053892215568862,0.816010621399843,0.8318318318318318,0.011404134693449952,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
   tol=0.001, verbose=False)",1,,0.1,rbf
-178,0.7987987987987988,0.812012611413809,0.8378378378378378,0.0182628486454447,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+154,0.7987987987987988,0.812012611413809,0.8378378378378378,0.0182628486454447,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1000,6,10,poly
-177,0.7987987987987988,0.812012611413809,0.8378378378378378,0.0182628486454447,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  shrinking=True, tol=0.001, verbose=False)",10,6,100,poly
+152,0.7987987987987988,0.812012611413809,0.8378378378378378,0.0182628486454447,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",10,6,1,poly
+128,0.7987987987987988,0.812012611413809,0.8378378378378378,0.0182628486454447,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1,6,10,poly
+129,0.7987987987987988,0.812012611413809,0.8378378378378378,0.0182628486454447,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1,6,100,poly
+202,0.7987987987987988,0.812012611413809,0.8378378378378378,0.0182628486454447,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
   shrinking=True, tol=0.001, verbose=False)",1000,6,1,poly
 153,0.7987987987987988,0.812012611413809,0.8378378378378378,0.0182628486454447,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",100,6,10,poly
-152,0.7987987987987988,0.812012611413809,0.8378378378378378,0.0182628486454447,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",100,6,1,poly
-154,0.7987987987987988,0.812012611413809,0.8378378378378378,0.0182628486454447,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",100,6,100,poly
-129,0.7987987987987988,0.812012611413809,0.8378378378378378,0.0182628486454447,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",10,6,100,poly
-128,0.7987987987987988,0.812012611413809,0.8378378378378378,0.0182628486454447,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
   shrinking=True, tol=0.001, verbose=False)",10,6,10,poly
-127,0.7987987987987988,0.812012611413809,0.8378378378378378,0.0182628486454447,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+203,0.7987987987987988,0.812012611413809,0.8378378378378378,0.0182628486454447,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",10,6,1,poly
-78,0.7987987987987988,0.812012611413809,0.8378378378378378,0.0182628486454447,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",0.1,6,10,poly
-103,0.7987987987987988,0.812012611413809,0.8378378378378378,0.0182628486454447,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1,6,10,poly
-104,0.7987987987987988,0.812012611413809,0.8378378378378378,0.0182628486454447,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1,6,100,poly
-79,0.7987987987987988,0.812012611413809,0.8378378378378378,0.0182628486454447,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",0.1,6,100,poly
-179,0.7987987987987988,0.812012611413809,0.8378378378378378,0.0182628486454447,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  shrinking=True, tol=0.001, verbose=False)",1000,6,10,poly
+204,0.7987987987987988,0.812012611413809,0.8378378378378378,0.0182628486454447,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
   shrinking=True, tol=0.001, verbose=False)",1000,6,100,poly
-97,0.7927927927927928,0.809006611401821,0.8318318318318318,0.01660912636277163,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+177,0.7987987987987988,0.812012611413809,0.8378378378378378,0.0182628486454447,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",100,6,1,poly
+104,0.7987987987987988,0.812012611413809,0.8378378378378378,0.0182628486454447,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",0.1,6,100,poly
+103,0.7987987987987988,0.812012611413809,0.8378378378378378,0.0182628486454447,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",0.1,6,10,poly
+178,0.7987987987987988,0.812012611413809,0.8378378378378378,0.0182628486454447,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",100,6,10,poly
+179,0.7987987987987988,0.812012611413809,0.8378378378378378,0.0182628486454447,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",100,6,100,poly
+122,0.7927927927927928,0.809006611401821,0.8318318318318318,0.01660912636277163,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
   shrinking=True, tol=0.001, verbose=False)",1,5,1,poly
-20,0.7957957957957958,0.8020055984127841,0.8138138138138138,0.00835339901276899,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+30,0.7957957957957958,0.8020055984127841,0.8138138138138138,0.00835339901276899,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
   tol=0.001, verbose=False)",10,,scale,rbf
-102,0.7867867867867868,0.7980075884267501,0.8168168168168168,0.013382546875374405,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+127,0.7867867867867868,0.7980075884267501,0.8168168168168168,0.013382546875374405,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
   shrinking=True, tol=0.001, verbose=False)",1,6,1,poly
-36,0.7657657657657657,0.7800015584446722,0.7957957957957958,0.012309135855084745,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+14,0.7604790419161677,0.7940335545125965,0.8138138138138138,0.02385298043884617,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",100,,10,rbf
-26,0.7657657657657657,0.7800015584446722,0.7957957957957958,0.012309135855084745,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+  tol=0.001, verbose=False)",0.1,,100,sigmoid
+39,0.7657657657657657,0.7800015584446722,0.7957957957957958,0.012309135855084745,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
   tol=0.001, verbose=False)",10,,10,rbf
-46,0.7657657657657657,0.7800015584446722,0.7957957957957958,0.012309135855084745,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+69,0.7657657657657657,0.7800015584446722,0.7957957957957958,0.012309135855084745,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
   tol=0.001, verbose=False)",1000,,10,rbf
-16,0.7507507507507507,0.7639975304645962,0.7747747747747747,0.009962007374995441,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+54,0.7657657657657657,0.7800015584446722,0.7957957957957958,0.012309135855084745,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",100,,10,rbf
+24,0.7507507507507507,0.7639975304645962,0.7747747747747747,0.009962007374995441,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
   tol=0.001, verbose=False)",1,,10,rbf
-48,0.7417417417417418,0.7559985134835433,0.7687687687687688,0.011083692100308629,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
-  max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",1000,,100,rbf
-38,0.7417417417417418,0.7559985134835433,0.7687687687687688,0.011083692100308629,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
-  max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",100,,100,rbf
-18,0.7417417417417418,0.7559985134835433,0.7687687687687688,0.011083692100308629,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
-  max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",1,,100,rbf
-28,0.7417417417417418,0.7559985134835433,0.7687687687687688,0.011083692100308629,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+42,0.7417417417417418,0.7559985134835433,0.7687687687687688,0.011083692100308629,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
   tol=0.001, verbose=False)",10,,100,rbf
-7,0.7357357357357357,0.7509995024965085,0.7657657657657657,0.012264754602632122,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+27,0.7417417417417418,0.7559985134835433,0.7687687687687688,0.011083692100308629,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",1,,100,rbf
+72,0.7417417417417418,0.7559985134835433,0.7687687687687688,0.011083692100308629,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",1000,,100,rbf
+57,0.7417417417417418,0.7559985134835433,0.7687687687687688,0.011083692100308629,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",100,,100,rbf
+10,0.7357357357357357,0.7509995024965085,0.7657657657657657,0.012264754602632122,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
   tol=0.001, verbose=False)",0.1,,10,linear
-3,0.7357357357357357,0.7509995024965085,0.7657657657657657,0.012264754602632122,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
-  max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",0.1,,0.1,linear
-5,0.7357357357357357,0.7509995024965085,0.7657657657657657,0.012264754602632122,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
-  max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",0.1,,1,linear
-1,0.7357357357357357,0.7509995024965085,0.7657657657657657,0.012264754602632122,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+1,0.7357357357357357,0.7509995024965085,0.7657657657657657,0.012264754602632122,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
   tol=0.001, verbose=False)",0.1,,scale,linear
-9,0.7357357357357357,0.7509995024965085,0.7657657657657657,0.012264754602632122,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
+4,0.7357357357357357,0.7509995024965085,0.7657657657657657,0.012264754602632122,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",0.1,,0.1,linear
+7,0.7357357357357357,0.7509995024965085,0.7657657657657657,0.012264754602632122,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",0.1,,1,linear
+13,0.7357357357357357,0.7509995024965085,0.7657657657657657,0.012264754602632122,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
   max_iter=-1, probability=False, random_state=None, shrinking=True,
   tol=0.001, verbose=False)",0.1,,100,linear
-175,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1000,6,scale,poly
-165,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1000,4,scale,poly
-160,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1000,3,scale,poly
-141,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",100,4,0.1,poly
-140,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",100,4,scale,poly
-150,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",100,6,scale,poly
-151,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",100,6,0.1,poly
-171,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1000,5,0.1,poly
-176,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1000,6,0.1,poly
-170,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+8,0.7357357357357357,0.7509995024965085,0.7657657657657657,0.012264754602632122,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",0.1,,1,sigmoid
+20,0.7357357357357357,0.7509995024965085,0.7657657657657657,0.012264754602632122,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",1,,0.1,sigmoid
+44,0.7387387387387387,0.7499985014955075,0.7597597597597597,0.008646963550947451,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",10,,100,sigmoid
+195,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
   shrinking=True, tol=0.001, verbose=False)",1000,5,scale,poly
-145,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",100,5,scale,poly
-146,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",100,5,0.1,poly
-166,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1000,4,0.1,poly
-155,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1000,2,scale,poly
-0,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
-  max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",0.1,,scale,rbf
-136,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",100,3,0.1,poly
-61,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",0.1,3,0.1,poly
-75,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",0.1,6,scale,poly
-72,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",0.1,5,1,poly
-71,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",0.1,5,0.1,poly
-70,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",0.1,5,scale,poly
-67,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",0.1,4,1,poly
-66,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",0.1,4,0.1,poly
-65,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",0.1,4,scale,poly
-62,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",0.1,3,1,poly
-60,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",0.1,3,scale,poly
-77,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",0.1,6,1,poly
-57,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",0.1,2,1,poly
-56,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",0.1,2,0.1,poly
-55,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",0.1,2,scale,poly
-10,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
-  max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",1,,scale,rbf
-8,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
-  max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",0.1,,100,rbf
-6,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
-  max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",0.1,,10,rbf
-4,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
-  max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",0.1,,1,rbf
-2,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=100, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
-  max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)",0.1,,0.1,rbf
-76,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",0.1,6,0.1,poly
-80,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1,2,scale,poly
-135,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+160,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
   shrinking=True, tol=0.001, verbose=False)",100,3,scale,poly
-110,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+161,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",10,3,scale,poly
-130,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  shrinking=True, tol=0.001, verbose=False)",100,3,0.1,poly
+175,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",100,6,scale,poly
+165,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",100,4,scale,poly
+196,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1000,5,0.1,poly
+191,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1000,4,0.1,poly
+190,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1000,4,scale,poly
+185,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1000,3,scale,poly
+201,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1000,6,0.1,poly
+200,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1000,6,scale,poly
+166,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",100,4,0.1,poly
+180,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1000,2,scale,poly
+170,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",100,5,scale,poly
+171,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",100,5,0.1,poly
+176,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",100,6,0.1,poly
+0,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",0.1,,scale,rbf
+155,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
   shrinking=True, tol=0.001, verbose=False)",100,2,scale,poly
-126,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+97,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",0.1,5,1,poly
+95,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",0.1,5,scale,poly
+92,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",0.1,4,1,poly
+91,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",0.1,4,0.1,poly
+90,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",0.1,4,scale,poly
+87,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",0.1,3,1,poly
+86,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",0.1,3,0.1,poly
+85,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",0.1,3,scale,poly
+82,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",0.1,2,1,poly
+81,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",0.1,2,0.1,poly
+80,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",0.1,2,scale,poly
+32,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",10,,scale,sigmoid
+17,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",1,,scale,sigmoid
+15,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",1,,scale,rbf
+12,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",0.1,,100,rbf
+9,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",0.1,,10,rbf
+6,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",0.1,,1,rbf
+5,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",0.1,,0.1,sigmoid
+3,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",0.1,,0.1,rbf
+2,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",0.1,,scale,sigmoid
+151,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
   shrinking=True, tol=0.001, verbose=False)",10,6,0.1,poly
-125,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+96,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",0.1,5,0.1,poly
+100,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",0.1,6,scale,poly
+101,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",0.1,6,0.1,poly
+150,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
   shrinking=True, tol=0.001, verbose=False)",10,6,scale,poly
-121,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+146,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
   shrinking=True, tol=0.001, verbose=False)",10,5,0.1,poly
-120,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+145,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
   shrinking=True, tol=0.001, verbose=False)",10,5,scale,poly
-116,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+141,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
   shrinking=True, tol=0.001, verbose=False)",10,4,0.1,poly
-115,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+140,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
   shrinking=True, tol=0.001, verbose=False)",10,4,scale,poly
-111,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+136,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
   shrinking=True, tol=0.001, verbose=False)",10,3,0.1,poly
-106,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+135,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",10,3,scale,poly
+131,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
   shrinking=True, tol=0.001, verbose=False)",10,2,0.1,poly
-81,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+130,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",10,2,scale,poly
+102,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",0.1,6,1,poly
+126,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1,6,0.1,poly
+125,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1,6,scale,poly
+121,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1,5,0.1,poly
+120,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1,5,scale,poly
+116,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1,4,0.1,poly
+115,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1,4,scale,poly
+111,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1,3,0.1,poly
+110,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)",1,3,scale,poly
+106,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
   shrinking=True, tol=0.001, verbose=False)",1,2,0.1,poly
 105,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
   decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
   kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",10,2,scale,poly
-101,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1,6,0.1,poly
-100,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1,6,scale,poly
-96,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1,5,0.1,poly
-95,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1,5,scale,poly
-91,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1,4,0.1,poly
-86,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1,3,0.1,poly
-85,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1,3,scale,poly
-90,0.7357357357357357,0.7499985014955074,0.7627627627627628,0.011084499214833963,"SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
-  kernel='rbf', max_iter=-1, probability=False, random_state=None,
-  shrinking=True, tol=0.001, verbose=False)",1,4,scale,poly
+  shrinking=True, tol=0.001, verbose=False)",1,2,scale,poly
+29,0.7395209580838323,0.7460064855274436,0.7537537537537538,0.0058786115422763815,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",1,,100,sigmoid
+74,0.7357357357357357,0.7439924954895014,0.7514970059880239,0.006456460289143326,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",1000,,100,sigmoid
+59,0.7327327327327328,0.7359994725264186,0.7387387387387387,0.002480147619306041,"SVC(C=10, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma=1, kernel='sigmoid',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)",100,,100,sigmoid

@@ -50,7 +50,7 @@ if __name__ == '__main__':
         {
             'clf__estimator': [SVC()],
             'clf__estimator__C': [0.1, 1, 10, 100, 1000],
-            'clf__estimator__kernel': ['rbf', 'linear'],
+            'clf__estimator__kernel': ['rbf', 'linear', 'sigmoid'],
             'clf__estimator__gamma': ['scale', 0.1, 1, 10, 100]
         },
         {

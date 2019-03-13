@@ -2,7 +2,7 @@ from sklearn import metrics
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
-from sklearn.svm import LinearSVC
+from sklearn.svm import LinearSVC, SVC
 from tqdm import tqdm
 import os
 import numpy as np
@@ -39,7 +39,11 @@ if __name__ == '__main__':
     # Pipeline
     pipe = Pipeline([
         ('tfidf', TfidfVectorizer()),
-        ('clf', LinearSVC(C=100)),
+        # ('clf', SVC(kernel='sigmoid', C=10, gamma=1))
+        # ('clf', LinearSVC(C=100))
+        # ('clf', LinearSVC(C=10))
+        # ('clf', SVC(kernel='rbf', C=100, gamma='auto'))
+        ('clf', SVC(kernel='linear', C=10, gamma=10))
     ])
     pipe.fit(X_train, y_train)
 

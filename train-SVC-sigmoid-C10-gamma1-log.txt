@@ -1,0 +1,25 @@
+SVC(kernel='sigmoid', C=10, gamma=1)
+Data set:
+73036 total
+24691 ham
+48345 spam
+
+Training set:
+58428 total
+19788 ham
+38640 spam
+
+Test set:
+14608 total
+4903 ham
+9705 spam
+
+Accuracy: 99.34967%
+              precision    recall  f1-score   support
+
+         ham       0.99      0.99      0.99      4903
+        spam       0.99      1.00      1.00      9705
+
+   micro avg       0.99      0.99      0.99     14608
+   macro avg       0.99      0.99      0.99     14608
+weighted avg       0.99      0.99      0.99     14608

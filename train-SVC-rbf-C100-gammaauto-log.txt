@@ -1,0 +1,27 @@
+SVC(kernel='rbf', C=100, gamma='auto')
+Data set:
+73036 total
+24691 ham
+48345 spam
+
+Training set:
+58428 total
+19788 ham
+38640 spam
+
+Test set:
+14608 total
+4903 ham
+9705 spam
+
+Accuracy: 66.43620%
+C:\Programming\Workspace\cs-191-ml-svm-ham-or-spam\env\lib\site-packages\sklearn\metrics\classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+              precision    recall  f1-score   support
+
+         ham       0.00      0.00      0.00      4903
+        spam       0.66      1.00      0.80      9705
+
+   micro avg       0.66      0.66      0.66     14608
+   macro avg       0.33      0.50      0.40     14608
+weighted avg       0.44      0.66      0.53     14608

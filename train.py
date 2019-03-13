@@ -39,11 +39,11 @@ if __name__ == '__main__':
     # Pipeline
     pipe = Pipeline([
         ('tfidf', TfidfVectorizer()),
-        # ('clf', SVC(kernel='sigmoid', C=10, gamma=1))
+        ('clf', SVC(kernel='sigmoid', C=10, gamma=1))
         # ('clf', LinearSVC(C=100))
         # ('clf', LinearSVC(C=10))
         # ('clf', SVC(kernel='rbf', C=100, gamma='auto'))
-        ('clf', SVC(kernel='linear', C=10, gamma=10))
+        # ('clf', SVC(kernel='linear', C=10, gamma=10))
     ])
     pipe.fit(X_train, y_train)
 
